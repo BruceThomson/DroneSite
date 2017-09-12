@@ -1,0 +1,82 @@
+.wrapper{
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background: rgb(255, 255, 255);
+}
+
+.navbar{
+
+  height: 100px;
+  margin: 0px;
+  width: 100%;
+  display: inline-flex;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 50%
+
+}
+.navColorBar{
+  height: 3px;
+  width: 100%;
+  color: darkgrey;
+}
+.navLinks {
+  padding-top: 25px;
+
+}
+.logo{
+  padding-top: 20px;
+  padding-right: 30px;
+  padding-left: 20px;
+}
+
+.navLinks > a{
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+.navLinks > a:hover{
+  color: white;
+  background-color: blue;
+}
+.id{
+  width: 150px;
+}
+
+.homeTitle{
+  font-size: 50px;
+}
+
+.homeSubText{
+  font-size: 40px;
+}
+
+.homeImage{
+  position: fix
+}
+
+.image, .image > img{
+  max-width: 100%;
+  position: relative;
+  top: -400px;
+  z-index: -1;
+}
+
+.content{
+  text-align: center;
+  background: rgba(50, 50, 50,0.6);
+  color: white;
+}
+
+.homeSpacer{
+  height: 100px;
+}
+
+body{
+  margin: 0px;
+  background-image: url(http://www.designbolts.com/wp-content/uploads/2013/02/Rough-Cloth-Grey-Seamless-Pattern-For-Website-Background.jpg);
+}
