@@ -15,6 +15,7 @@
   margin-left: 25%;
   margin-right: 25%;
   width: 50%
+  min-width: 850px;
 
 }
 .navColorBar{
@@ -22,10 +23,34 @@
   width: 100%;
   color: darkgrey;
 }
-.navLinks {
+#navLinks {
   padding-top: 25px;
 
+
 }
+#ulElements{
+  list-style-type: none;
+  display: inline-flex;
+  margin: 0px;
+}
+#ulElements > li{
+  padding-right: 15px;
+
+}
+#socialLinks{
+  padding-top: 15px;
+
+}
+.navList > a{
+  text-decoration: none;
+  color: black;
+}
+#navColorBar{
+  width: 100%;
+  height: 3px;
+  background-color: blue;
+}
+
 .logo{
   padding-top: 20px;
   padding-right: 30px;
@@ -35,7 +60,7 @@
 .navLinks > a{
   padding-right: 15px;
   padding-left: 15px;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
   color: black;
 }
